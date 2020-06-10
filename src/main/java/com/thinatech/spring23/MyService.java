@@ -16,8 +16,8 @@ public class MyService {
             System.out.println(i);
         }
         return switch (type) {
-            case female -> Collections.singletonList(new MyRecord("rafika ichir", type));
-            case male, none -> Collections.singletonList(new MyRecord("mehdi ichir", type));
+            case female -> Collections.singletonList(new MyRecord("Mrs Ichir", type));
+            case male, none -> Collections.singletonList(new MyRecord("Mr ichir", type));
         };
     }
 }
