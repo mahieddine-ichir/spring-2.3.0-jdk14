@@ -11,7 +11,7 @@ A Sample project with Spring 2.3.0 and JDK 14.
     mvn clean install
 ````
 
-## Build docker image
+## Build docker image (need to have docker engine running)
 ````
     mvn package -Pdocker
 ````
